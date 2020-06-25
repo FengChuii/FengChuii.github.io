@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>风吹</title>
+  
+  <subtitle>咸鱼渗透测试</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://fengchuii.github.io/"/>
+  <updated>2020-06-25T08:51:47.463Z</updated>
+  <id>https://fengchuii.github.io/</id>
+  
+  <author>
+    <name>FengChui</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件安装</title>
+    <link href="https://fengchuii.github.io/2020/02/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    <id>https://fengchuii.github.io/2020/02/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/</id>
+    <published>2020-02-25T16:00:00.000Z</published>
+    <updated>2020-06-25T08:51:47.463Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="web软件安装"><a href="#web软件安装" class="headerlink" title="web软件安装"></a>web软件安装</h1><ul><li><h2 id="JDK安装-eclips"><a href="#JDK安装-eclips" class="headerlink" title="JDK安装+eclips"></a>JDK安装+eclips</h2><ol><li>推荐下载稳定的<a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener">JDK8</a></li><li>系统环境配置三个<br> <code>JAVA_HOME</code> : jdk目录(修改JDK版本)<br> <code>CLASSPATH</code>:  <code>.%JAVA_HOME%\lib</code><br> <code>path</code>添加  <code>.%JAVA_HOME%\bin</code>  </li><li><a href="https://www.eclipse.org/downloads/packages/" target="_blank" rel="noopener">Eclips</a> 根据自己的需求安装</li></ol></li><li><h2 id="intellij-IDE"><a href="#intellij-IDE" class="headerlink" title="intellij IDE"></a><a href="https://pan.baidu.com/s/108mt2iLmQD12W5tdO2m54Q" target="_blank" rel="noopener">intellij IDE</a></h2><p>  码f8xv</p><ol><li>安装IDE,将JetbrainsCrack.jar复制到bin</li><li>选择免费试用，之后选择help-&gt;Edit custom VM….</li><li>根据自己地址添加<code>-javaagent:F:\idea\IntelliJ IDEA 2019.1.2\bin\JetbrainsCrack.jar</code></li><li>重启，help-&gt;register,选择激活码激活</li><li>help-&gt;about查看结果</li></ol></li><li><h2 id="navicat"><a href="#navicat" class="headerlink" title="navicat"></a><a href="https://pan.baidu.com/s/1ftQ4CgSJzc6qWuGUq7Xk1w" target="_blank" rel="noopener">navicat</a></h2><p>  码263k  </p><ol><li>安装</li><li>打开注册机选择exe文件patch</li><li>打开navicat注册，generate Serial Keygen，复制生成码点注册-&gt;手动-&gt;复制请求码generate激活码</li></ol></li><li><h2 id="tomcat"><a href="#tomcat" class="headerlink" title="tomcat"></a><a href="https://tomcat.apache.org/" target="_blank" rel="noopener">tomcat</a></h2><p>  安装后记录    </p><ol><li><p>…\bin\startup.bat启动</p></li><li><p>…\conf\server.xml   配置端口和http get传递中文乱码问题      </p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Connector</span> <span class="attr">port</span>=<span class="string">"80"</span></span></span><br><span class="line"><span class="tag"><span class="attr">....</span></span></span><br><span class="line"><span class="tag"><span class="attr">....</span></span></span><br><span class="line"><span class="tag"><span class="attr">URIEncoding</span>=<span class="string">"UTF-8 maxThreads="</span><span class="attr">150</span>"/&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>…conf\context.xml<br><code>&lt;context reloadable=&quot;true&quot;&gt;</code></p></li><li><p>…conf\tomcat-users.xml  配置管理账号      </p><p> <code>&lt;role rolename = &quot;manage-gui&quot;/&gt;</code><br> <code>&lt;user username=&quot;tomcat&quot; password=&quot;tomcat&quot; roles=&quot;manage-gui&quot;/&gt;</code>   </p></li></ol></li><li><h2 id="mysql"><a href="#mysql" class="headerlink" title="mysql"></a><a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener">mysql</a></h2><ol><li>添加环境变量  path添加<code>...\bin</code>地址  </li><li>mysql目录下新建my.ini  <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line">[mysqld]</span><br><span class="line"></span><br><span class="line"># 设置3306端口</span><br><span class="line"></span><br><span class="line">port=3306</span><br><span class="line"></span><br><span class="line"># 设置mysql的安装目录</span><br><span class="line"></span><br><span class="line">basedir=d:\\mysql-8.0.19-winx64</span><br><span class="line"></span><br><span class="line"># 切记此处一定要用双斜杠\\，单斜杠这里会出错。</span><br><span class="line"></span><br><span class="line"># 设置mysql数据库的数据的存放目录</span><br><span class="line"></span><br><span class="line">datadir=E:\\mysql-8.0.13-winx64\\Data</span><br><span class="line"># 此处同上</span><br><span class="line"></span><br><span class="line"># 允许最大连接数</span><br><span class="line"></span><br><span class="line">max_connections=200</span><br><span class="line"></span><br><span class="line"># 允许连接失败的次数。这是为了防止有人从该主机试图攻击数据库系统</span><br><span class="line"></span><br><span class="line">max_connect_errors=10</span><br><span class="line"></span><br><span class="line"># 服务端使用的字符集默认为UTF8</span><br><span class="line"></span><br><span class="line">character-set-server=utf8</span><br><span class="line"></span><br><span class="line"># 创建新表时将使用的默认存储引擎</span><br><span class="line"></span><br><span class="line">default-storage-engine=INNODB</span><br><span class="line"></span><br><span class="line"># 默认使用“mysql_native_password”插件认证</span><br><span class="line"></span><br><span class="line">default_authentication_plugin=mysql_native_password</span><br><span class="line"></span><br><span class="line">[mysql]</span><br><span class="line"></span><br><span class="line"># 设置mysql客户端默认字符集</span><br><span class="line"></span><br><span class="line">default-character-set=utf8</span><br><span class="line"></span><br><span class="line">[client]</span><br><span class="line"></span><br><span class="line"># 设置mysql客户端连接服务端时默认使用的端口</span><br><span class="line"></span><br><span class="line">port=3306</span><br><span class="line"></span><br><span class="line">default-character-set=utf8</span><br></pre></td></tr></table></figure></li></ol></li></ul><ol><li><p>进入bin目录，管理员权限启动cmd输入<br><code>mysqld --initialize --console</code><br>等下出现的root@localhost：后面的是随机生成的数据库初始密码，执行完后输入  </p><pre><code>mysqld --installnet start mysql  </code></pre></li><li><p>登录修改密码  </p><pre><code>mysql -uroot -p上面的密码alter user root@localhost identified by &apos;新密码&apos;;</code></pre></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;web软件安装&quot;&gt;&lt;a href=&quot;#web软件安装&quot; class=&quot;headerlink&quot; title=&quot;web软件安装&quot;&gt;&lt;/a&gt;web软件安装&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;h2 id=&quot;JDK安装-eclips&quot;&gt;&lt;a href=&quot;#JDK安装-eclips
+      
+    
+    </summary>
+    
+    
+    
+      <category term="tools" scheme="https://fengchuii.github.io/tags/tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OBS问题</title>
+    <link href="https://fengchuii.github.io/2020/02/05/OBS/"/>
+    <id>https://fengchuii.github.io/2020/02/05/OBS/</id>
+    <published>2020-02-04T16:00:00.000Z</published>
+    <updated>2020-06-25T08:53:47.091Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="OBS使用记录"><a href="#OBS使用记录" class="headerlink" title="OBS使用记录"></a>OBS使用记录</h1><blockquote><p>OBS窗口抓取不到：【NVIDA设置独显】或者【设置-系统-显示-图形设置-浏览-找到obs应用程序-选择节能】</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;OBS使用记录&quot;&gt;&lt;a href=&quot;#OBS使用记录&quot; class=&quot;headerlink&quot; title=&quot;OBS使用记录&quot;&gt;&lt;/a&gt;OBS使用记录&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;OBS窗口抓取不到：【NVIDA设置独显】或者【设置-系统-显示-图形设置
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>软件安装</title>
+    <link href="https://fengchuii.github.io/2019/03/22/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <id>https://fengchuii.github.io/2019/03/22/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
+    <published>2019-03-21T16:00:00.000Z</published>
+    <updated>2020-06-25T08:53:11.049Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="blogBuilding：github-hexo"><a href="#blogBuilding：github-hexo" class="headerlink" title="blogBuilding：github+hexo"></a>blogBuilding：github+hexo</h2><ol><li><p>软件基础：</p><ul><li><a href="http://nodejs.cn/download/" target="_blank" rel="noopener">node.js</a></li></ul><ul><li><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a> </li></ul></li><li><p>安装hexo</p><blockquote><p>首先找一个目录放置博客 ，用git bash 打开输入命令</p></blockquote><blockquote><p><code>npm install -g hexo</code><br> warn啥的不用管<br> <code>hexo init</code><br> <code>npm install</code><br> <code>npm install hexo-deployer-git</code><br> <code>npm g</code><br> <code>npm s</code></p></blockquote><p> hexo安装ok</p></li><li><p>配置git</p><blockquote><p><code>ssh-keygen -t rsa -C &quot;xxx@qq.com&quot;</code><br>回车默认不需要密码</p></blockquote><blockquote><p>打开<code>C:\Users\bxm09\.ssh\id_rsa.pub</code><br>复制其中所有到<br><code>https://github.com/settings/ssh</code>中新建ssh中</p></blockquote><blockquote><p>ssh -T <a href="mailto:git@github.com">git@github.com</a><br>回复hi ….就ok  </p></blockquote><blockquote><p>配置个人信息<br><code>git config --global user.name &quot;FengChuii&quot;</code><br><code>git config --global user.email &quot;FengChuii@qq.com&quot;</code>  </p></blockquote></li></ol><pre><code>&gt; 在博客目录下`_config.yml`中      deploy:    type: git    repo: git@github.com:FengChuii/FengChuii.github.io.git    branch: master</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;blogBuilding：github-hexo&quot;&gt;&lt;a href=&quot;#blogBuilding：github-hexo&quot; class=&quot;headerlink&quot; title=&quot;blogBuilding：github+hexo&quot;&gt;&lt;/a&gt;blogBuilding：g
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
