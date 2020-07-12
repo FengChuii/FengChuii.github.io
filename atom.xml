@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://fengchuii.github.io/"/>
-  <updated>2020-06-25T08:51:47.463Z</updated>
+  <updated>2020-06-26T10:57:18.662Z</updated>
   <id>https://fengchuii.github.io/</id>
   
   <author>
@@ -17,36 +17,55 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>软件安装</title>
-    <link href="https://fengchuii.github.io/2020/02/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
-    <id>https://fengchuii.github.io/2020/02/26/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/</id>
-    <published>2020-02-25T16:00:00.000Z</published>
-    <updated>2020-06-25T08:51:47.463Z</updated>
+    <title>web知识</title>
+    <link href="https://fengchuii.github.io/2020/06/26/%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/"/>
+    <id>https://fengchuii.github.io/2020/06/26/%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/</id>
+    <published>2020-06-26T09:34:28.526Z</published>
+    <updated>2020-06-26T10:57:18.662Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="web软件安装"><a href="#web软件安装" class="headerlink" title="web软件安装"></a>web软件安装</h1><ul><li><h2 id="JDK安装-eclips"><a href="#JDK安装-eclips" class="headerlink" title="JDK安装+eclips"></a>JDK安装+eclips</h2><ol><li>推荐下载稳定的<a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener">JDK8</a></li><li>系统环境配置三个<br> <code>JAVA_HOME</code> : jdk目录(修改JDK版本)<br> <code>CLASSPATH</code>:  <code>.%JAVA_HOME%\lib</code><br> <code>path</code>添加  <code>.%JAVA_HOME%\bin</code>  </li><li><a href="https://www.eclipse.org/downloads/packages/" target="_blank" rel="noopener">Eclips</a> 根据自己的需求安装</li></ol></li><li><h2 id="intellij-IDE"><a href="#intellij-IDE" class="headerlink" title="intellij IDE"></a><a href="https://pan.baidu.com/s/108mt2iLmQD12W5tdO2m54Q" target="_blank" rel="noopener">intellij IDE</a></h2><p>  码f8xv</p><ol><li>安装IDE,将JetbrainsCrack.jar复制到bin</li><li>选择免费试用，之后选择help-&gt;Edit custom VM….</li><li>根据自己地址添加<code>-javaagent:F:\idea\IntelliJ IDEA 2019.1.2\bin\JetbrainsCrack.jar</code></li><li>重启，help-&gt;register,选择激活码激活</li><li>help-&gt;about查看结果</li></ol></li><li><h2 id="navicat"><a href="#navicat" class="headerlink" title="navicat"></a><a href="https://pan.baidu.com/s/1ftQ4CgSJzc6qWuGUq7Xk1w" target="_blank" rel="noopener">navicat</a></h2><p>  码263k  </p><ol><li>安装</li><li>打开注册机选择exe文件patch</li><li>打开navicat注册，generate Serial Keygen，复制生成码点注册-&gt;手动-&gt;复制请求码generate激活码</li></ol></li><li><h2 id="tomcat"><a href="#tomcat" class="headerlink" title="tomcat"></a><a href="https://tomcat.apache.org/" target="_blank" rel="noopener">tomcat</a></h2><p>  安装后记录    </p><ol><li><p>…\bin\startup.bat启动</p></li><li><p>…\conf\server.xml   配置端口和http get传递中文乱码问题      </p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Connector</span> <span class="attr">port</span>=<span class="string">"80"</span></span></span><br><span class="line"><span class="tag"><span class="attr">....</span></span></span><br><span class="line"><span class="tag"><span class="attr">....</span></span></span><br><span class="line"><span class="tag"><span class="attr">URIEncoding</span>=<span class="string">"UTF-8 maxThreads="</span><span class="attr">150</span>"/&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>…conf\context.xml<br><code>&lt;context reloadable=&quot;true&quot;&gt;</code></p></li><li><p>…conf\tomcat-users.xml  配置管理账号      </p><p> <code>&lt;role rolename = &quot;manage-gui&quot;/&gt;</code><br> <code>&lt;user username=&quot;tomcat&quot; password=&quot;tomcat&quot; roles=&quot;manage-gui&quot;/&gt;</code>   </p></li></ol></li><li><h2 id="mysql"><a href="#mysql" class="headerlink" title="mysql"></a><a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener">mysql</a></h2><ol><li>添加环境变量  path添加<code>...\bin</code>地址  </li><li>mysql目录下新建my.ini  <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line">[mysqld]</span><br><span class="line"></span><br><span class="line"># 设置3306端口</span><br><span class="line"></span><br><span class="line">port=3306</span><br><span class="line"></span><br><span class="line"># 设置mysql的安装目录</span><br><span class="line"></span><br><span class="line">basedir=d:\\mysql-8.0.19-winx64</span><br><span class="line"></span><br><span class="line"># 切记此处一定要用双斜杠\\，单斜杠这里会出错。</span><br><span class="line"></span><br><span class="line"># 设置mysql数据库的数据的存放目录</span><br><span class="line"></span><br><span class="line">datadir=E:\\mysql-8.0.13-winx64\\Data</span><br><span class="line"># 此处同上</span><br><span class="line"></span><br><span class="line"># 允许最大连接数</span><br><span class="line"></span><br><span class="line">max_connections=200</span><br><span class="line"></span><br><span class="line"># 允许连接失败的次数。这是为了防止有人从该主机试图攻击数据库系统</span><br><span class="line"></span><br><span class="line">max_connect_errors=10</span><br><span class="line"></span><br><span class="line"># 服务端使用的字符集默认为UTF8</span><br><span class="line"></span><br><span class="line">character-set-server=utf8</span><br><span class="line"></span><br><span class="line"># 创建新表时将使用的默认存储引擎</span><br><span class="line"></span><br><span class="line">default-storage-engine=INNODB</span><br><span class="line"></span><br><span class="line"># 默认使用“mysql_native_password”插件认证</span><br><span class="line"></span><br><span class="line">default_authentication_plugin=mysql_native_password</span><br><span class="line"></span><br><span class="line">[mysql]</span><br><span class="line"></span><br><span class="line"># 设置mysql客户端默认字符集</span><br><span class="line"></span><br><span class="line">default-character-set=utf8</span><br><span class="line"></span><br><span class="line">[client]</span><br><span class="line"></span><br><span class="line"># 设置mysql客户端连接服务端时默认使用的端口</span><br><span class="line"></span><br><span class="line">port=3306</span><br><span class="line"></span><br><span class="line">default-character-set=utf8</span><br></pre></td></tr></table></figure></li></ol></li></ul><ol><li><p>进入bin目录，管理员权限启动cmd输入<br><code>mysqld --initialize --console</code><br>等下出现的root@localhost：后面的是随机生成的数据库初始密码，执行完后输入  </p><pre><code>mysqld --installnet start mysql  </code></pre></li><li><p>登录修改密码  </p><pre><code>mysql -uroot -p上面的密码alter user root@localhost identified by &apos;新密码&apos;;</code></pre></li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="0x01-MIME概述"><a href="#0x01-MIME概述" class="headerlink" title="0x01 MIME概述"></a>0x01 MIME概述</h2><p>媒体类型（通常称为 Multipurpose Internet Mail Extensions 或 MIME 类型 ）是一种标准，用来表示文档、文件或字节流的性质和格式。它在IETF RFC 6838中进行了定义和标准化。  </p><p>浏览器通常使用MIME类型（而不是文件扩展名）来确定如何处理URL，<code>因此Web服务器在响应头中添加正确的MIME类型非常重要</code>。如果配置不正确，浏览器可能会曲解文件内容，网站将无法正常工作，并且下载的文件也会被错误处理。</p><h2 id="0x02-通用结构"><a href="#0x02-通用结构" class="headerlink" title="0x02 通用结构"></a>0x02 通用结构</h2><blockquote><p>type/subtype</p></blockquote><p>MIME的组成结构非常简单；由类型与子类型两个字符串中间用’/‘分隔而组成。不允许空格存在。type 表示可以被分多个子类的独立类别。subtype 表示细分后的每个类型。</p><p>MIME类型对大小写不敏感，但是传统写法都是小写。</p><h2 id="0x03-常用实例"><a href="#0x03-常用实例" class="headerlink" title="0x03 常用实例"></a>0x03 常用实例</h2><blockquote><p>text/plain<br>text/html<br>image/jpeg<br>image/png<br>audio/mpeg<br>audio/ogg<br>audio/*<br>video/mp4<br>application/*<br>application/json<br>application/javascript<br>application/ecmascript<br>application/octet-stream  </p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;web软件安装&quot;&gt;&lt;a href=&quot;#web软件安装&quot; class=&quot;headerlink&quot; title=&quot;web软件安装&quot;&gt;&lt;/a&gt;web软件安装&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;h2 id=&quot;JDK安装-eclips&quot;&gt;&lt;a href=&quot;#JDK安装-eclips
+        &lt;h2 id=&quot;0x01-MIME概述&quot;&gt;&lt;a href=&quot;#0x01-MIME概述&quot; class=&quot;headerlink&quot; title=&quot;0x01 MIME概述&quot;&gt;&lt;/a&gt;0x01 MIME概述&lt;/h2&gt;&lt;p&gt;媒体类型（通常称为 Multipurpose Internet Ma
       
     
     </summary>
     
     
     
-      <category term="tools" scheme="https://fengchuii.github.io/tags/tools/"/>
+  </entry>
+  
+  <entry>
+    <title>DHCP</title>
+    <link href="https://fengchuii.github.io/2020/06/25/DHCP/"/>
+    <id>https://fengchuii.github.io/2020/06/25/DHCP/</id>
+    <published>2020-06-25T14:37:41.717Z</published>
+    <updated>2020-06-26T04:41:01.246Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="0x01-DHCP概要"><a href="#0x01-DHCP概要" class="headerlink" title="0x01 DHCP概要"></a>0x01 DHCP概要</h1><p>动态主机配置协议（Dynamic Host configuration protocol），局域网的网络协议，使用UDP协议工作，常用的2个端口：67(DHCP server),68(DHCP client)。DHCP通常被用于局域网环境，主要作用是集中的管理、分配IP地址，使client动态的获得IP地址、Gateway地址、DNS服务器地址等信息，并能够提升地址的使用率。简单来说，DHCP就是一个不需要账号密码登录的、自动给内网机器分配IP地址等信息的协议。也就是说一个无线路由器同时也是一个DHCP服务器。</p><p>码：</p><p><a href="https://blog.csdn.net/Andy_93/article/details/78238931?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase" target="_blank" rel="noopener">https://blog.csdn.net/Andy_93/article/details/78238931?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&amp;depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;0x01-DHCP概要&quot;&gt;&lt;a href=&quot;#0x01-DHCP概要&quot; class=&quot;headerlink&quot; title=&quot;0x01 DHCP概要&quot;&gt;&lt;/a&gt;0x01 DHCP概要&lt;/h1&gt;&lt;p&gt;动态主机配置协议（Dynamic Host configuratio
+      
+    
+    </summary>
+    
+    
     
   </entry>
   
   <entry>
-    <title>OBS问题</title>
+    <title>OBS</title>
     <link href="https://fengchuii.github.io/2020/02/05/OBS/"/>
     <id>https://fengchuii.github.io/2020/02/05/OBS/</id>
     <published>2020-02-04T16:00:00.000Z</published>
-    <updated>2020-06-25T08:53:47.091Z</updated>
+    <updated>2020-06-26T04:43:47.482Z</updated>
     
     <content type="html"><![CDATA[<h1 id="OBS使用记录"><a href="#OBS使用记录" class="headerlink" title="OBS使用记录"></a>OBS使用记录</h1><blockquote><p>OBS窗口抓取不到：【NVIDA设置独显】或者【设置-系统-显示-图形设置-浏览-找到obs应用程序-选择节能】</p></blockquote>]]></content>
     
@@ -62,22 +81,101 @@
     
     
     
+      <category term="tools" scheme="https://fengchuii.github.io/tags/tools/"/>
+    
   </entry>
   
   <entry>
-    <title>软件安装</title>
-    <link href="https://fengchuii.github.io/2019/03/22/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    <id>https://fengchuii.github.io/2019/03/22/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
-    <published>2019-03-21T16:00:00.000Z</published>
-    <updated>2020-06-25T08:53:11.049Z</updated>
+    <title>ip命令</title>
+    <link href="https://fengchuii.github.io/2019/03/24/ipCmd/"/>
+    <id>https://fengchuii.github.io/2019/03/24/ipCmd/</id>
+    <published>2019-03-23T16:00:00.000Z</published>
+    <updated>2020-06-26T05:20:20.950Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="blogBuilding：github-hexo"><a href="#blogBuilding：github-hexo" class="headerlink" title="blogBuilding：github+hexo"></a>blogBuilding：github+hexo</h2><ol><li><p>软件基础：</p><ul><li><a href="http://nodejs.cn/download/" target="_blank" rel="noopener">node.js</a></li></ul><ul><li><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a> </li></ul></li><li><p>安装hexo</p><blockquote><p>首先找一个目录放置博客 ，用git bash 打开输入命令</p></blockquote><blockquote><p><code>npm install -g hexo</code><br> warn啥的不用管<br> <code>hexo init</code><br> <code>npm install</code><br> <code>npm install hexo-deployer-git</code><br> <code>npm g</code><br> <code>npm s</code></p></blockquote><p> hexo安装ok</p></li><li><p>配置git</p><blockquote><p><code>ssh-keygen -t rsa -C &quot;xxx@qq.com&quot;</code><br>回车默认不需要密码</p></blockquote><blockquote><p>打开<code>C:\Users\bxm09\.ssh\id_rsa.pub</code><br>复制其中所有到<br><code>https://github.com/settings/ssh</code>中新建ssh中</p></blockquote><blockquote><p>ssh -T <a href="mailto:git@github.com">git@github.com</a><br>回复hi ….就ok  </p></blockquote><blockquote><p>配置个人信息<br><code>git config --global user.name &quot;FengChuii&quot;</code><br><code>git config --global user.email &quot;FengChuii@qq.com&quot;</code>  </p></blockquote></li></ol><pre><code>&gt; 在博客目录下`_config.yml`中      deploy:    type: git    repo: git@github.com:FengChuii/FengChuii.github.io.git    branch: master</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2 id="0x01-ip命令"><a href="#0x01-ip命令" class="headerlink" title="0x01 ip命令"></a>0x01 ip命令</h2><p>ip是iproute2软件包里面的一个强大的网络配置工具，用来显示或操作路由、网络设备、策略路由和隧道，它能够替代一些传统的网络管理工具，例如ifconfig、route等。用ip配置的设备信息，大部分会在设备重启后还原，如果想永久保留配置，请尽量进入配置文件修改。</p><h2 id="0x02-常用选项"><a href="#0x02-常用选项" class="headerlink" title="0x02 常用选项"></a>0x02 常用选项</h2><p>ip [选项] [对象]</p><ol><li>对象：<blockquote><p>   link 网络设备<br>address 设备上的协议（IP或IPv6）地址<br>addrlabel 协议地址选择的标签配置<br>neighbour ARP或NDISC缓存条目<br>route 路由表条目<br>rule 路由策略数据库中的规则<br>maddress 组播地址<br>mroute 组播路由缓存条目<br>tunnel IP隧道<br>xfrm IPSec协议框架  </p></blockquote></li><li>选项：<blockquote><p>-V，-Version 显示指令版本信息  </p></blockquote></li></ol><p>-s,-stats,statistics 输出详细信息<br>-h,-human,-human-readable 输出人类可读的统计信息和后缀<br>-iec 以IEC标准单位打印人类可读速率（例如1K=1024）<br>-f,-family <FAMILY> 指定要使用的协议族。协议族标识可以是inet、inet6、ipx、dnet或link之一。如果此选项不存在，则从其他参数中推测协议族。如果命令行的其余部分没有提供足够的信息来推测该族，则ip会退回到默认值，通常是inet或any。link是一个特殊的系列标识符，表示不涉及网络协议。<br>-4 –family inet的快捷方式<br>-6 –family inet6的快捷方式<br>-0 –family link的快捷方式<br>-o,-oneline 将每条记录输出到一行，用’\’字符替换换行符。<br>-r,-resolve 使用系统名称解析程序来打印DNS名称而不是主机地址。  </p><h2 id="0x03-常用实例"><a href="#0x03-常用实例" class="headerlink" title="0x03 常用实例"></a>0x03 常用实例</h2><p>查看所有IP地址</p><blockquote><p>ip a/addr/address  </p></blockquote><p>查看指定IP地址</p><blockquote><p>ip a sh/show (dev) eth1</p></blockquote><p>增加或删除IP地址</p><blockquote><p>ip a add 192.168.78.130/24 dev eth1<br>ip a del/delete 192.168.78.130/24 dev eth1</p></blockquote><p>删除eth0所有IP地址</p><blockquote><p>ip a flush dev eth0</p></blockquote><p>查看路由</p><blockquote><p>ip r/ro/route</p></blockquote><p>查看ARP表</p><blockquote><p>ip n/neigh/neighbuor sh/show</p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;blogBuilding：github-hexo&quot;&gt;&lt;a href=&quot;#blogBuilding：github-hexo&quot; class=&quot;headerlink&quot; title=&quot;blogBuilding：github+hexo&quot;&gt;&lt;/a&gt;blogBuilding：g
+        &lt;h2 id=&quot;0x01-ip命令&quot;&gt;&lt;a href=&quot;#0x01-ip命令&quot; class=&quot;headerlink&quot; title=&quot;0x01 ip命令&quot;&gt;&lt;/a&gt;0x01 ip命令&lt;/h2&gt;&lt;p&gt;ip是iproute2软件包里面的一个强大的网络配置工具，用来显示或操作路由、网络设
+      
+    
+    </summary>
+    
+    
+    
+      <category term="linux" scheme="https://fengchuii.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>lsof命令</title>
+    <link href="https://fengchuii.github.io/2019/03/24/lsofCmd/"/>
+    <id>https://fengchuii.github.io/2019/03/24/lsofCmd/</id>
+    <published>2019-03-23T16:00:00.000Z</published>
+    <updated>2020-06-26T08:43:06.741Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="0x01-lsof命令"><a href="#0x01-lsof命令" class="headerlink" title="0x01 lsof命令"></a>0x01 lsof命令</h2><p>lsof(list open files)是一个列出当前系统打开文件的工具。在linux环境下，任何事物都以文件的形式存在，通过文件不仅仅可以访问常规数据，还可以访问网络连接和硬件。所以如传输控制协议 (TCP) 和用户数据报协议 (UDP) 套接字等，系统在后台都为该应用程序分配了一个文件描述符，无论这个文件的本质如何，该文件描述符为应用程序与基础操作系统之间的交互提供了通用接口。因为应用程序打开文件的描述符列表提供了大量关于这个应用程序本身的信息，因此通过lsof工具能够查看这个列表对系统监测以及排错将是很有帮助的</p><h2 id="0x02-常用选项"><a href="#0x02-常用选项" class="headerlink" title="0x02 常用选项"></a>0x02 常用选项</h2><blockquote><p>-a 指示其它选项之间为与的关系<br>-c &lt;进程名&gt; 输出指定进程所打开的文件<br>-d &lt;文件描述符&gt; 列出占用该文件号的进程<br>+d &lt;目录&gt; 输出目录及目录下被打开的文件和目录(不递归)<br>+D &lt;目录&gt; 递归输出及目录下被打开的文件和目录<br>-i &lt;条件&gt; 输出符合条件与网络相关的文件<br>-n 不解析主机名<br>-p &lt;进程号&gt; 输出指定 PID 的进程所打开的文件<br>-P 不解析端口号<br>-t 只输出 PID<br>-u 输出指定用户打开的文件<br>-U 输出打开的 UNIX domain socket 文件<br>-h 显示帮助信息<br>-v 显示版本信息    </p></blockquote><h2 id="0x03-常用实例"><a href="#0x03-常用实例" class="headerlink" title="0x03 常用实例"></a>0x03 常用实例</h2><p>查看22端口被哪个进程占用</p><blockquote><p>lsof -i :22 </p></blockquote><p>显示开启文件1.txt的进程</p><blockquote><p>lsof 1.txt </p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;0x01-lsof命令&quot;&gt;&lt;a href=&quot;#0x01-lsof命令&quot; class=&quot;headerlink&quot; title=&quot;0x01 lsof命令&quot;&gt;&lt;/a&gt;0x01 lsof命令&lt;/h2&gt;&lt;p&gt;lsof(list open files)是一个列出当前系统打开文件
+      
+    
+    </summary>
+    
+    
+    
+      <category term="linux" scheme="https://fengchuii.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件安装</title>
+    <link href="https://fengchuii.github.io/2019/03/23/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    <id>https://fengchuii.github.io/2019/03/23/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/</id>
+    <published>2019-03-22T16:00:00.000Z</published>
+    <updated>2020-06-26T12:03:54.898Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><h2 id="JDK安装-eclips"><a href="#JDK安装-eclips" class="headerlink" title="JDK安装+eclips"></a>JDK安装+eclips</h2><ol><li>推荐下载稳定的<a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener">JDK8</a></li><li>系统环境配置三个<br> <code>JAVA_HOME</code> : jdk目录(修改JDK版本)<br> <code>CLASSPATH</code>:  <code>.%JAVA_HOME%\lib</code><br> <code>path</code>添加  <code>.%JAVA_HOME%\bin</code>  </li><li><a href="https://www.eclipse.org/downloads/packages/" target="_blank" rel="noopener">Eclips</a> 根据自己的需求安装</li></ol></li><li><h2 id="intellij-IDE"><a href="#intellij-IDE" class="headerlink" title="intellij IDE"></a><a href="https://pan.baidu.com/s/108mt2iLmQD12W5tdO2m54Q" target="_blank" rel="noopener">intellij IDE</a></h2><p>  码f8xv</p><ol><li>安装IDE,将JetbrainsCrack.jar复制到bin</li><li>选择免费试用，之后选择help-&gt;Edit custom VM….</li><li>根据自己地址添加<code>-javaagent:F:\idea\IntelliJ IDEA 2019.1.2\bin\JetbrainsCrack.jar</code></li><li>重启，help-&gt;register,选择激活码激活</li><li>help-&gt;about查看结果</li></ol></li><li><h2 id="navicat"><a href="#navicat" class="headerlink" title="navicat"></a><a href="https://pan.baidu.com/s/1ftQ4CgSJzc6qWuGUq7Xk1w" target="_blank" rel="noopener">navicat</a></h2><p>  码263k  </p><ol><li>安装</li><li>打开注册机选择exe文件patch</li><li>打开navicat注册，generate Serial Keygen，复制生成码点注册-&gt;手动-&gt;复制请求码generate激活码</li></ol></li><li><h2 id="tomcat"><a href="#tomcat" class="headerlink" title="tomcat"></a><a href="https://tomcat.apache.org/" target="_blank" rel="noopener">tomcat</a></h2><p>  安装后记录    </p><ol><li><p>…\bin\startup.bat启动</p></li><li><p>…\conf\server.xml   配置端口和http get传递中文乱码问题      </p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Connector</span> <span class="attr">port</span>=<span class="string">"80"</span></span></span><br><span class="line"><span class="tag"><span class="attr">....</span></span></span><br><span class="line"><span class="tag"><span class="attr">....</span></span></span><br><span class="line"><span class="tag"><span class="attr">URIEncoding</span>=<span class="string">"UTF-8 maxThreads="</span><span class="attr">150</span>"/&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>…conf\context.xml<br><code>&lt;context reloadable=&quot;true&quot;&gt;</code></p></li><li><p>…conf\tomcat-users.xml  配置管理账号      </p><p> <code>&lt;role rolename = &quot;manage-gui&quot;/&gt;</code><br> <code>&lt;user username=&quot;tomcat&quot; password=&quot;tomcat&quot; roles=&quot;manage-gui&quot;/&gt;</code>   </p></li></ol></li><li><h2 id="mysql"><a href="#mysql" class="headerlink" title="mysql"></a><a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener">mysql</a></h2><ol><li>添加环境变量  path添加<code>...\bin</code>地址  </li><li>mysql目录下新建my.ini  <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line">[mysqld]</span><br><span class="line"></span><br><span class="line"># 设置3306端口</span><br><span class="line"></span><br><span class="line">port=3306</span><br><span class="line"></span><br><span class="line"># 设置mysql的安装目录</span><br><span class="line"></span><br><span class="line">basedir=d:\\mysql-8.0.19-winx64</span><br><span class="line"></span><br><span class="line"># 切记此处一定要用双斜杠\\，单斜杠这里会出错。</span><br><span class="line"></span><br><span class="line"># 设置mysql数据库的数据的存放目录</span><br><span class="line"></span><br><span class="line">datadir=E:\\mysql-8.0.13-winx64\\Data</span><br><span class="line"># 此处同上</span><br><span class="line"></span><br><span class="line"># 允许最大连接数</span><br><span class="line"></span><br><span class="line">max_connections=200</span><br><span class="line"></span><br><span class="line"># 允许连接失败的次数。这是为了防止有人从该主机试图攻击数据库系统</span><br><span class="line"></span><br><span class="line">max_connect_errors=10</span><br><span class="line"></span><br><span class="line"># 服务端使用的字符集默认为UTF8</span><br><span class="line"></span><br><span class="line">character-set-server=utf8</span><br><span class="line"></span><br><span class="line"># 创建新表时将使用的默认存储引擎</span><br><span class="line"></span><br><span class="line">default-storage-engine=INNODB</span><br><span class="line"></span><br><span class="line"># 默认使用“mysql_native_password”插件认证</span><br><span class="line"></span><br><span class="line">default_authentication_plugin=mysql_native_password</span><br><span class="line"></span><br><span class="line">[mysql]</span><br><span class="line"></span><br><span class="line"># 设置mysql客户端默认字符集</span><br><span class="line"></span><br><span class="line">default-character-set=utf8</span><br><span class="line"></span><br><span class="line">[client]</span><br><span class="line"></span><br><span class="line"># 设置mysql客户端连接服务端时默认使用的端口</span><br><span class="line"></span><br><span class="line">port=3306</span><br><span class="line"></span><br><span class="line">default-character-set=utf8</span><br></pre></td></tr></table></figure></li></ol></li></ul><ol><li><p>进入bin目录，管理员权限启动cmd输入<br><code>mysqld --initialize --console</code><br>等下出现的root@localhost：后面的是随机生成的数据库初始密码，执行完后输入  </p><pre><code>mysqld --installnet start mysql  </code></pre></li><li><p>登录修改密码  </p><pre><code>mysql -uroot -p上面的密码alter user root@localhost identified by &apos;新密码&apos;;</code></pre></li></ol><h2 id="OWASP靶机"><a href="#OWASP靶机" class="headerlink" title="OWASP靶机"></a><a href="https://sourceforge.net/projects/owaspbwa/files/" target="_blank" rel="noopener">OWASP靶机</a></h2><ol><li>解压虚拟机打开</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;h2 id=&quot;JDK安装-eclips&quot;&gt;&lt;a href=&quot;#JDK安装-eclips&quot; class=&quot;headerlink&quot; title=&quot;JDK安装+eclips&quot;&gt;&lt;/a&gt;JDK安装+eclips&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;推荐下载稳定的&lt;a href=
+      
+    
+    </summary>
+    
+    
+    
+      <category term="tools" scheme="https://fengchuii.github.io/tags/tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客搭建</title>
+    <link href="https://fengchuii.github.io/2019/03/22/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <id>https://fengchuii.github.io/2019/03/22/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
+    <published>2019-03-21T16:00:00.000Z</published>
+    <updated>2020-06-26T04:19:22.519Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="：github-hexo"><a href="#：github-hexo" class="headerlink" title="：github+hexo"></a>：github+hexo</h2><ol><li><p>软件基础：</p><ul><li><a href="http://nodejs.cn/download/" target="_blank" rel="noopener">node.js</a></li></ul><ul><li><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git</a> </li></ul></li><li><p>安装hexo</p><blockquote><p>首先找一个目录放置博客 ，用git bash 打开输入命令</p></blockquote><blockquote><p><code>npm install -g hexo</code><br> warn啥的不用管<br> <code>hexo init</code><br> <code>npm install</code><br> <code>npm install hexo-deployer-git</code><br> <code>npm g</code><br> <code>npm s</code></p></blockquote><p> hexo安装ok</p></li><li><p>配置git</p><blockquote><p><code>ssh-keygen -t rsa -C &quot;xxx@qq.com&quot;</code><br>回车默认不需要密码</p></blockquote><blockquote><p>打开<code>C:\Users\bxm09\.ssh\id_rsa.pub</code><br>复制其中所有到<br><code>https://github.com/settings/ssh</code>中新建ssh中</p></blockquote><blockquote><p>ssh -T <a href="mailto:git@github.com">git@github.com</a><br>回复hi ….就ok  </p></blockquote><blockquote><p>配置个人信息<br><code>git config --global user.name &quot;FengChuii&quot;</code><br><code>git config --global user.email &quot;FengChuii@qq.com&quot;</code>  </p></blockquote></li></ol><pre><code>&gt; 在博客目录下`_config.yml`中      deploy:    type: git    repo: git@github.com:FengChuii/FengChuii.github.io.git    branch: master</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;：github-hexo&quot;&gt;&lt;a href=&quot;#：github-hexo&quot; class=&quot;headerlink&quot; title=&quot;：github+hexo&quot;&gt;&lt;/a&gt;：github+hexo&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;软件基础：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a
       
     
     </summary>
